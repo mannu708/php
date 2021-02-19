@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <style>
+        div {
+            background-image: url();
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            -webkit-animation-name: xyz;
+            -webkit-animation-duration: 10s;
+            -webkit-animation-iteration-count: infinite;
+        }
+        
+        @-webkit-keyframes xyz {
+            0% {
+                background-image: url('1.jpg');
+                transform: rotateY(90deg);
+            }
+            20% {
+                background-image: url('2.jpg');
+                transform: rotateY(120deg);
+            }
+            40% {
+                background-image: url('3.jpg');
+                transform: rotateY(160deg);
+            }
+            60% {
+                background-image: url('4.jpg');
+                transform: rotateY(180deg);
+            }
+            80% {
+                background-image: url('5.jpg');
+                transform: rotateY(300deg);
+            }
+            100% {
+                background-image: url('6.jpeg');
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
